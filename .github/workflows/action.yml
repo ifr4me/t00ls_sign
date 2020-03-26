@@ -1,11 +1,11 @@
-name: 'T00ls Sign'
+name: 'Sign tools'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 10 * * *'
 
 jobs:
   t00ls_sign:
